@@ -1,0 +1,75 @@
+@media (max-width: 600px) {
+  header .hero-section .hero-left-content {
+    span, h1, h2, p{
+      margin-top: 20px;
+      
+    }
+    p{
+        text-wrap: wrap;
+    }
+    .button-section .hire-me{
+      padding: 7px 20px;
+    }
+    .social-icons{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+  }
+  
+  
+  header nav .nav-bar #navLinks{
+    display: none;
+  }
+  header nav .nav-bar ul {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    color: white;
+    position: absolute;
+    top: 35px;
+    right: 0;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  header nav .nav-bar #menuOpen {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+  header nav .nav-bar #menuClose{
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+  
+   .about-section .about-me .about-me-left-content button{
+    margin-block: 20px;
+    
+  }
+   /* .about-section .about-me .about-me-right-content .personal-details:hover{
+    transform: translateX(4px);
+    background-color: red;
+    
+  }   */
+  /* .skill-section .My-skill {
+    height: 30px;
+    width: 30%;
+  } */
+  footer .footer-section .my-footer{
+    .footer-left-part{
+      margin-top: 7px;
+    }
+    .footer-middle-part{
+      margin-top: 15px;
+    }
+    .footer-right-part{
+      margin-top: 10px;
+    }
+  }
+  
+}
